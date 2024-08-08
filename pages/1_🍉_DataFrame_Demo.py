@@ -1,3 +1,6 @@
+import os
+from os.path import dirname, abspath
+
 import streamlit as st
 import pandas as pd
 import numpy as np
@@ -30,8 +33,9 @@ st.write("""This demo demonstrates using Streamlit+Python to read tables from a 
 
 # 执行SQL并读取数据
 # df = pd.read_sql(query, con=cnx)
-
-df = pd.read_csv(r'../files/AK4.csv')
+base_dir = dirname(dirname(abspath(__file__)))
+file_path = os.path.join(base_dir, '/files/AK4.csv')
+df = pd.read_csv(file_path)
 df.columns = ['Accession', 'Description', 'Gene', 'MW [kDa]', 'Control', 'Case']
 
 urls = []
