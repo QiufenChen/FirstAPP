@@ -23,7 +23,7 @@ QMugs:  [https://libdrive.ethz.ch/index.php/s/X5vOBNSITAG5vzM](https://libdrive.
 CASF-2016: [http://www.pdbbind.org.cn/casf.php](http://www.pdbbind.org.cn/casf.php)
 
 ## Framework：
-![Framework](C:/Users/17608/Desktop/FirstAPP/pictures/Framework1.png)
+![Framework](https://github.com/QiufenChen/FirstAPP/blob/main/pictures/Framework1.png)
 [https://github.com/dmis-lab/MulinforCPI/tree/main](https://github.com/dmis-lab/MulinforCPI/tree/main)
 
 # Citation2
@@ -43,7 +43,7 @@ CASF-2016: [http://www.pdbbind.org.cn/casf.php](http://www.pdbbind.org.cn/casf.p
 }
 ```
 ## Dataset：
-![Dataset](C:/Users/17608/Desktop/FirstAPP/pictures/Datasets.png)
+![Dataset](https://github.com/QiufenChen/FirstAPP/blob/main/pictures/Datasets.png)
 
 ## Framework：
-![](C:/Users/17608/Desktop/FirstAPP/pictures/Framework2.png)
+![](https://github.com/QiufenChen/FirstAPP/blob/main/pictures/Framework2.png)
