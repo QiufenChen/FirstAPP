@@ -1,6 +1,7 @@
 import glob
 import re
 import streamlit as st
+from PIL import Image
 
 st.set_page_config(page_title="MyAPP",
                    page_icon=":four_leaf_clover:",
@@ -34,7 +35,8 @@ def render_markdown_with_images(markdown_text):
         # 显示图片
         img_url = match.group(1)
         # print(img_url)
-        st.image(img_url.id)
+        img = Image.open
+        st.image(img_url)
 
         # 更新上一个位置
         last_pos = match.end()
