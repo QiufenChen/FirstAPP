@@ -33,8 +33,8 @@ def render_markdown_with_images(markdown_text):
 
         # 显示图片
         img_url = match.group(1)
-        print(img_url)
-        st.image(img_url)
+        # print(img_url)
+        st.image(str(img_url))
 
         # 更新上一个位置
         last_pos = match.end()
