@@ -9,6 +9,8 @@ st.set_page_config(page_title="MyAPP",
                    initial_sidebar_state="auto")
 
 st.title('Welcome to my :red[first Streamlit Webpage] :sunglasses:')
+st.divider()
+
 st.write("""This demo demonstrates how to use Markdown""")
 
 
