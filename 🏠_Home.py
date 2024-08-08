@@ -1,3 +1,4 @@
+import glob
 import re
 import streamlit as st
 
@@ -13,8 +14,8 @@ st.sidebar.success("Select a demo above")
 
 st.title("Introduction about my project")
 
-
-with open(f'./files/functions.md', 'r', encoding='utf-8') as info:
+files = glob.glob('files/*.md')
+with open(files[0], 'r', encoding='utf-8') as info:
     markdown_text = info.read()
 
 
