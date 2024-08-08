@@ -6,6 +6,7 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
+import glob
 from stmol import showmol, render_pdb_resn, render_pdb
 import py3Dmol
 # import pymysql as mysql
@@ -39,7 +40,8 @@ root_dir = os.path.abspath(os.sep)
 
 print(root_dir)
 
-df = pd.read_csv('../AK4.csv')
+files = glob.glob('files/*.csv')
+df = pd.read_csv(files[0])
 df.columns = ['Accession', 'Description', 'Gene', 'MW [kDa]', 'Control', 'Case']
 
 urls = []
