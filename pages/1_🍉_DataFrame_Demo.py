@@ -31,7 +31,7 @@ st.write("""This demo demonstrates using Streamlit+Python to read tables from a 
 # 执行SQL并读取数据
 # df = pd.read_sql(query, con=cnx)
 
-df = pd.read_csv('../files/AK4.csv')
+df = pd.read_csv(r'../files/AK4.csv')
 df.columns = ['Accession', 'Description', 'Gene', 'MW [kDa]', 'Control', 'Case']
 
 urls = []
@@ -110,5 +110,5 @@ if cal_fold_change:
         filter_df['Log2 Fold Change'] = np.log2(filter_df['Case'] / filter_df['Control'])
         st.write(filter_df)
 
-cnx.close()
+# cnx.close()
 
