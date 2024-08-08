@@ -1,5 +1,5 @@
 
-# Citation1
+### Citation1
 ```
 @article{nguyen2024mulinforcpi,
   title={MulinforCPI: enhancing precision of compound--protein interaction prediction through novel perspectives on multi-level information integration},
@@ -13,7 +13,7 @@
 }
 ```
 
-## **Dataset:**
+### **Dataset:**
 The related links are as follows:
 KIBA, Davis: [https://github.com/kexinhuang12345/DeepPurpose](https://github.com/kexinhuang12345/DeepPurpose) \
 Metz:  [https://github.com/sirimullalab/KinasepKipred](https://github.com/sirimullalab/KinasepKipred) \
@@ -23,7 +23,7 @@ QMugs:  [https://libdrive.ethz.ch/index.php/s/X5vOBNSITAG5vzM](https://libdrive.
 CASF-2016: [http://www.pdbbind.org.cn/casf.php](http://www.pdbbind.org.cn/casf.php)
 
 
-# Citation2
+### Citation2
 ```
 @article{10.1093/bioinformatics/btac731,
     author = {Nguyen, Ngoc-Quang and Jang, Gwanghoon and Kim, Hajung and Kang, Jaewoo},

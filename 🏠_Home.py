@@ -9,11 +9,11 @@ st.set_page_config(page_title="MyAPP",
                    initial_sidebar_state="auto")
 
 st.title('Welcome to my :red[first Streamlit Webpage] :sunglasses:')
+st.write("""This demo demonstrates how to use Markdown""")
+
 
 # https://docs.streamlit.io/develop/api-reference/layout/st.sidebar
 st.sidebar.success("Select a demo above")
-
-st.title("Introduction about my project")
 
 files = glob.glob('files/*.md')
 with open(files[0], 'r', encoding='utf-8') as info:
