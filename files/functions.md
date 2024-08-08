@@ -1,4 +1,4 @@
-本研究想要从新视角去预测两者的相互作用，包括一级序列信息和三级结构信息，那我们在设计一个新颖的框架之前先去调研一下前人的工作。
+
 # Citation1
 ```
 @article{nguyen2024mulinforcpi,
@@ -22,9 +22,6 @@ DUD-E Diverse:  [http://dude.docking.org/subsets/diverse](http://dude.docking.or
 QMugs:  [https://libdrive.ethz.ch/index.php/s/X5vOBNSITAG5vzM](https://libdrive.ethz.ch/index.php/s/X5vOBNSITAG5vzM) \
 CASF-2016: [http://www.pdbbind.org.cn/casf.php](http://www.pdbbind.org.cn/casf.php)
 
-## Framework：
-![Framework1](https://github.com/QiufenChen/FirstAPP/blob/main/pictures/Framework1.png)
-[https://github.com/dmis-lab/MulinforCPI/tree/main](https://github.com/dmis-lab/MulinforCPI/tree/main)
 
 # Citation2
 ```
@@ -42,8 +39,4 @@ CASF-2016: [http://www.pdbbind.org.cn/casf.php](http://www.pdbbind.org.cn/casf.p
     eprint = {https://academic.oup.com/bioinformatics/advance-article-pdf/doi/10.1093/bioinformatics/btac731/47214739/btac731.pdf},
 }
 ```
-## Dataset：
-![Dataset](https://github.com/QiufenChen/FirstAPP/blob/main/pictures/Datasets.png)
 
-## Framework：
-![Framework2](https://github.com/QiufenChen/FirstAPP/blob/main/pictures/Framework2.png)
