@@ -1,2 +1,2 @@
 # FirstAPP
-This is my first Streamlit Webpage :sunglasses:.
+This is my first Streamlit Webpage
